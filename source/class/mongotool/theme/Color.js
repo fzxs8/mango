@@ -8,7 +8,7 @@
 
 ************************************************************************ */
 
-qx.Theme.define("mongotool.theme.Color",
+qx.Theme.define("Mango.theme.Color",
 {
   extend : qx.theme.modern.Color,
 

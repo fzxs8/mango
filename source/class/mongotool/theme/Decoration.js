@@ -8,7 +8,7 @@
 
 ************************************************************************ */
 
-qx.Theme.define("mongotool.theme.Decoration",
+qx.Theme.define("Mango.theme.Decoration",
 {
   extend : qx.theme.modern.Decoration,
 

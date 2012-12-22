@@ -10,14 +10,14 @@
 
 /* ************************************************************************
 
-#asset(mongotool/*)
+#asset(Mango/*)
 
 ************************************************************************ */
 
 /**
- * This is the main application class of your custom application "mongotool"
+ * This is the main application class of your custom application "Mango"
  */
-qx.Class.define("mongotool.Application",
+qx.Class.define("Mango.Application",
 {
   extend : qx.application.Standalone,
 
@@ -58,7 +58,7 @@ qx.Class.define("mongotool.Application",
       */
 
       // Create a button
-      var button1 = new qx.ui.form.Button("First Button", "mongotool/test.png");
+      var button1 = new qx.ui.form.Button("First Button", "Mango/test.png");
 
       // Document is the application root
       var doc = this.getRoot();

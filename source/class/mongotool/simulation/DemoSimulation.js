@@ -15,7 +15,7 @@
  * 
  * @lint ignoreUndefined(simulator)
  */
-qx.Class.define("mongotool.simulation.DemoSimulation", {
+qx.Class.define("Mango.simulation.DemoSimulation", {
 
   extend : simulator.unit.TestCase,
   

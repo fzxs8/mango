@@ -20,7 +20,7 @@
  * i.e. using deeper namespaces and a corresponding file structure within the 
  * <tt>test</tt> folder.
  */
-qx.Class.define("mongotool.test.DemoTest",
+qx.Class.define("Mango.test.DemoTest",
 {
   extend : qx.dev.unit.TestCase,
 

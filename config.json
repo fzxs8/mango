@@ -1,5 +1,5 @@
 {
-  "name"    : "mongotool",
+  "name"    : "Mango",
 
   "include" :
   [
@@ -36,9 +36,9 @@
 
   "let" :
   {
-    "APPLICATION"  : "mongotool",
+    "APPLICATION"  : "Mango",
     "QOOXDOO_PATH" : "../../mydocument/qooxdoo-2.1-sdk",
-    "QXTHEME"      : "mongotool.theme.Theme",
+    "QXTHEME"      : "Mango.theme.Theme",
     "API_EXCLUDE"  : ["qx.test.*", "${APPLICATION}.theme.*", "${APPLICATION}.test.*", "${APPLICATION}.simulation.*"],
     "LOCALES"      : [ "en" ],
     "CACHE"        : "${TMPDIR}/qx${QOOXDOO_VERSION}/cache",

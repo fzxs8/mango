@@ -8,14 +8,14 @@
 
 ************************************************************************ */
 
-qx.Theme.define("mongotool.theme.Theme",
+qx.Theme.define("Mango.theme.Theme",
 {
   meta :
   {
-    color : mongotool.theme.Color,
-    decoration : mongotool.theme.Decoration,
-    font : mongotool.theme.Font,
+    color : Mango.theme.Color,
+    decoration : Mango.theme.Decoration,
+    font : Mango.theme.Font,
     icon : qx.theme.icon.Tango,
-    appearance : mongotool.theme.Appearance
+    appearance : Mango.theme.Appearance
   }
 });

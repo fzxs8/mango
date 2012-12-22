@@ -8,7 +8,7 @@
 
 ************************************************************************ */
 
-qx.Theme.define("mongotool.theme.Font",
+qx.Theme.define("Mango.theme.Font",
 {
   extend : qx.theme.modern.Font,
 
