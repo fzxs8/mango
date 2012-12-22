@@ -1,7 +1,7 @@
 mango
 =====
 
-测试学习用~
+我就是那一只传说种的狼....
 
 Desktop Skeleton - A qooxdoo Application Template
 ==================================================
