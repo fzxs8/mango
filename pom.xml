@@ -4,6 +4,16 @@
 	<groupId>mango</groupId>
 	<artifactId>mango</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.mongodb</groupId>
+			<artifactId>mongo-java-driver</artifactId>
+			<version>2.6.5</version>
+		</dependency>
+
+	</dependencies>
+
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
@@ -11,8 +21,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>2.3.2</version>
 				<configuration>
-					<source>1.7</source>
-					<target>1.7</target>
+					<source />
+					<target />
 				</configuration>
 			</plugin>
 		</plugins>
