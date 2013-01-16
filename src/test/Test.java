@@ -31,7 +31,6 @@ public class Test extends ApplicationWindow {
     @Override
     protected Control createContents(Composite parent) {
         Composite container = new Composite(parent, SWT.NONE);
-
         return container;
     }
 
