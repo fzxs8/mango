@@ -1,0 +1,49 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'mangodb' ]
+2 info using npm@1.1.69
+3 info using node@v0.8.16
+4 verbose read json /home/fzxs/workspace/mango/package.json
+5 warn package.json application-name@0.0.1 No README.md file found!
+6 verbose read json /home/fzxs/workspace/mango/node_modules/express/package.json
+7 verbose read json /home/fzxs/workspace/mango/node_modules/ejs/package.json
+8 verbose from cache /home/fzxs/workspace/mango/package.json
+9 verbose readDependencies using package.json deps
+10 verbose cache add [ 'mangodb', null ]
+11 silly cache add name=undefined spec="mangodb" args=["mangodb",null]
+12 verbose parsed url { pathname: 'mangodb', path: 'mangodb', href: 'mangodb' }
+13 silly lockFile 5fa4a396-mangodb mangodb
+14 verbose lock mangodb /home/fzxs/.npm/5fa4a396-mangodb.lock
+15 silly lockFile 5fa4a396-mangodb mangodb
+16 verbose addNamed [ 'mangodb', '' ]
+17 verbose addNamed [ null, '' ]
+18 silly lockFile 090f5afa-mangodb mangodb@
+19 verbose lock mangodb@ /home/fzxs/.npm/090f5afa-mangodb.lock
+20 silly addNameRange { name: 'mangodb', range: '', hasData: false }
+21 verbose url raw mangodb
+22 verbose url resolving [ 'https://registry.npmjs.org/', './mangodb' ]
+23 verbose url resolved https://registry.npmjs.org/mangodb
+24 info trying registry request attempt 1 at 22:05:41
+25 http GET https://registry.npmjs.org/mangodb
+26 http 404 https://registry.npmjs.org/mangodb
+27 silly registry.get cb [ 404,
+27 silly registry.get   { server: 'CouchDB/1.2.1 (Erlang OTP/R15B)',
+27 silly registry.get     date: 'Wed, 16 Jan 2013 14:04:13 GMT',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'content-length': '52',
+27 silly registry.get     'cache-control': 'must-revalidate' } ]
+28 silly lockFile 090f5afa-mangodb mangodb@
+29 error 404 'mangodb' is not in the npm registry.
+29 error 404 You should bug the author to publish it
+29 error 404
+29 error 404 Note that you can also install from a
+29 error 404 tarball, folder, or http url, or git url.
+30 error System Linux 3.6.11-1.fc17.x86_64
+31 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "mangodb"
+32 error cwd /home/fzxs/workspace/mango
+33 error node -v v0.8.16
+34 error npm -v 1.1.69
+35 error code E404
+36 verbose exit [ 1, true ]
